@@ -1,102 +1,101 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="utf-8"/>
-    <title>Lance Lookout: Página oficial</title>
-
-    <link rel="stylesheet" href="css/estilo.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lance Lookout: Página oficial</title>
+	<link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <head>
-        <!-- un puto banner que sea más simple, aaa. -->
-        <div class="div1">
-            <p>Lance Lookout</p>
-        </div>
+	<header class="encabezado">
+		<div class="titulo-cuadro">
+			<h1 class="titulo">Lance Lookout</h1>
+			<p class="subtitulo">Sitio web oficial</p>
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Inicio</a></li>
+			<li><a href="#">Oraciones</a></li>
+			<li><a href="#">Extras</a></li>
+		</ul>
+	</nav>
+	<div class="limpiar"></div>
+	<main>
+		<div class="contenido">
+			<div class="contenido-grid">
+				<div class="idioma-descripcion">
+					<section>
+						<h2>¿Qué es LFQ?</h2>
+						<p>El LFQ es una lengua artificial de carácter recreativo hecho con el objetivo de plasmar las ideas y también ciertos aspectos
+						personales del autor; una lengua personal que refleja su forma de ver las cosas. Respecto al uso práctico y útil de la misma
+						dependerá de la persona que lo hable.</p>
+					</section>
+				</div>
+				<div class="idioma-origen">
+					<section>
+						<h2>Origen</h2>
+						<p>El proyecto nació como un intento de crear un idioma parecido al vasco. Dicho proyecto no ha tenido éxito debido a la falta de
+						conocimiento sobre el mismo. Desde ese momento el idioma iteraría varias veces hasta llegar a su forma actual. Versiones anteriores
+						del idioma tenían gramática diferente, sonidos y grafías distintas. En algún punto el idioma también intentó ser un clon del turco,
+						algo que también se probaría imposible.</p>
+					</section>
+				</div>
+				<div class="idioma-proposito">
+					<section>
+						<h2>Propósito</h2>
+						<p>Por defecto, ninguno. La lengua no fue hecha para resolver un problema de comunicación. Existe para ser el idioma personal del
+						autor y para que éste lo utilice para lo que quiera, además para ser un medio de expresión creativa.</p>
+					</section>
+				</div>
+			</div>
 
-        <!-- menú (sticky) -->
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Oraciones</a></li>
-                <li><a href="#">Extras</a></li>
-            </ul>
-        </nav>
-    </head>
-    <div class="limpiar"></div>
-    <main>
-        <div class="contenido">
-            <div class="contenido-grid">
-                <div class="idioma-descripcion">
-                    <section>
-                        <h2>¿Qué es LFQ?</h2>
-                        <p>El LFQ es una lengua artificial de carácter recreativo hecho con el objetivo de plasmar las ideas y también ciertos aspectos
-                        personales del autor; una lengua personal que refleja su forma de ver las cosas. Respecto al uso práctico y útil de la misma
-                        dependerá de la persona que lo hable.</p>
-                    </section>
-                </div>
-                <div class="idioma-origen">
-                    <section>
-                        <h2>Origen</h2>
-                        <p>El proyecto nació como un intento de crear un idioma parecido al vasco. Dicho proyecto no ha tenido éxito debido a la falta de
-                        conocimiento sobre el mismo. Desde ese momento el idioma iteraría varias veces hasta llegar a su forma actual. Versiones anteriores
-                        del idioma tenían gramática diferente, sonidos y grafías distintas. En algún punto el idioma también intentó ser un clon del turco,
-                        algo que también se probaría imposible.</p>
-                    </section>
-                </div>
-                <div class="idioma-proposito">
-                    <section>
-                        <h2>Propósito</h2>
-                        <p>Por defecto, ninguno. La lengua no fue hecha para resolver un problema de comunicación. Existe para ser el idioma personal del
-                        autor y para que éste lo utilice para lo que quiera, además para ser un medio de expresión creativa.</p>
-                    </section>
-                </div>
-            </div>
+			<div class="idioma-alfabeto">
+				<section>
+					<h2 class="fondo">Alfabeto</h2>
+					<p class="fondo">Esta son todas las letras que dispone el idioma. Algunas de ellas cambian de sonido según qué letras tengan al lado, y otras
+					siempre se leen produciendo un sonido.</p>
 
-            <div class="idioma-alfabeto">
-                <section>
-                    <h2 class="fondo">Alfabeto</h2>
-                    <p class="fondo">Esta son todas las letras que dispone el idioma. Algunas de ellas cambian de sonido según qué letras tengan al lado, y otras
-                    siempre se leen produciendo un sonido.</p>
-
-                    <div class="alfabeto-flex">
-                        <div><p>a</p></div>
-                        <div><p>ä</p></div>
-                        <div><p>v</p></div>
-                        <div><p>ṽ</p></div>
-                        <div><p>c</p></div>
-                        <div><p>cc</p></div>
-                        <div><p>ğ</p></div>
-                        <div><p>e</p></div>
-                        <div><p>ë</p></div>
-                        <div><p>ə</p></div>
-                        <div><p>i</p></div>
-                        <div><p>ı</p></div>
-                        <div><p>q</p></div>
-                        <div><p>l</p></div>
-                        <div><p>ll</p></div>
-                        <div><p>ỻ</p></div>
-                        <div><p>m</p></div>
-                        <div><p>n</p></div>
-                        <div><p>nn</p></div>
-                        <div><p>ñ</p></div>
-                        <div><p>o</p></div>
-                        <div><p>ö</p></div>
-                        <div><p>p</p></div>
-                        <div><p>r</p></div>
-                        <div><p>t</p></div>
-                        <div><p>tt</p></div>
-                        <div><p>ţ</p></div>
-                        <div><p>ç</p></div>
-                        <div><p>u</p></div>
-                        <div><p>x</p></div>
-                    </div>
-                </section>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <p>Página creada por Leonardo David Dick Martínez</p>
-        <p>Escrito en <a href="img/helix.png">Helix Editor</a></p>
-    </footer>
+					<div class="alfabeto-flex">
+						<div><p>a</p></div>
+						<div><p>ä</p></div>
+						<div><p>v</p></div>
+						<div><p>ṽ</p></div>
+						<div><p>c</p></div>
+						<div><p>cc</p></div>
+						<div><p>ğ</p></div>
+						<div><p>e</p></div>
+						<div><p>ë</p></div>
+						<div><p>ə</p></div>
+						<div><p>i</p></div>
+						<div><p>ı</p></div>
+						<div><p>q</p></div>
+						<div><p>l</p></div>
+						<div><p>ll</p></div>
+						<div><p>ỻ</p></div>
+						<div><p>m</p></div>
+						<div><p>n</p></div>
+						<div><p>nn</p></div>
+						<div><p>ñ</p></div>
+						<div><p>o</p></div>
+						<div><p>ö</p></div>
+						<div><p>p</p></div>
+						<div><p>r</p></div>
+						<div><p>t</p></div>
+						<div><p>tt</p></div>
+						<div><p>ţ</p></div>
+						<div><p>ç</p></div>
+						<div><p>u</p></div>
+						<div><p>x</p></div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p>Página creada por Leonardo David Dick Martínez</p>
+		<p>Escrito en <a href="img/helix.png">Helix Editor</a></p>
+	</footer>
 </body>
 </html>
+

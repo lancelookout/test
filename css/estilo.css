@@ -11,6 +11,9 @@
     --gris:rgb(225,225,225);
     --azul:rgb(0,0,50);
     --blanco:rgb(255,255,255);
+
+	--portada: #500000;
+	--titulo: #b43232;
 }
 
 *
@@ -22,29 +25,30 @@
     font-family:inter;
 }
 
-/* banner */
-.div1
+.encabezado
 {
-    display:grid;
-
-    justify-content:center;
-    align-content:center;
+    display: grid;
+    justify-content: flex-end;
+    align-content: flex-end;
         
-    width:100%;
-    height:100px;
+	padding: 20px;
+    width: 100%;
+    height: 300px;
     
-    background-color:var(--azul);
-}
+    background-color: var(--portada);
 
-.div1 p
-{
-    padding:10px;
-    
-    color:var(--blanco);
-    font-size:50px;
-    font-weight:bold;
-    
-    background-color:rgb(0,200,255);
+	.titulo-cuadro
+	{
+		padding: 10px;
+		background-color: var(--titulo);
+
+		color: var(--blanco);
+		font-weight: bold;
+		text-align: right;
+
+		.titulo {font-size: 3em;}
+		.subtitulo {font-size: 2em;}
+	}
 }
 
 /* menú */
@@ -221,3 +225,4 @@ footer a:hover
 {
     clear:both;
 }
+
