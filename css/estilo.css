@@ -51,8 +51,17 @@
 		font-weight: bold;
 		text-align: right;
 
-		.titulo {font-size: 3em;}
-		.subtitulo {font-size: 2em;}
+		.titulo
+		{
+			font-size: 3em;
+			@media (width < 800px) {font-size: 2em;}
+		}
+
+		.subtitulo
+		{
+			font-size: 2em;
+			@media (width < 800px) {font-size: 1em;}
+		}
 	}
 }
 
