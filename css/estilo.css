@@ -64,11 +64,7 @@
     position: sticky;
     top: 0px;
 
-	background-color: var(--blanco);
-
-	animation-name: sombraMenu;
-	animation-duration: 1s;
-	animation-timeline: scroll();
+	background-color: var(--titulo);
 
 	.lista-menu
 	{
@@ -83,51 +79,27 @@
 
 		.item-menu
 		{
-			transition: linear 0.3s;
-
 			display: inline-block;
 
 			padding: 15px;
 			width: 110px;
 			
+			color: var(--blanco);
 			text-align: center;
 			text-decoration: none;
 
-			animation-name: colorTextoMenu;
-			animation-duration: 1s;
-			animation-timeline: scroll();
+			transition: linear 0.3s;
 
 			@media (width < 800px) {width: 100%;}
 
 			&:hover
 			{
-				transition: linear 0.2s;
-
 				background-color: var(--portada);
-				color: var(--blanco) !important;
+				transition: linear 0.2s;
 			}
 		}
 	}
 }
-
-@keyframes sombraMenu
-{
-	from {
-		background-color: var(--titulo);
-	}
-
-	to {
-		box-shadow: 0px 0px 10px 0px var(--sombra);
-		background-color: var(--blanco);
-	}
-}
-
-@keyframes colorTextoMenu
-{
-	from {color: var(--blanco);}
-	to {color: var(--negro);}
-}
-
 
 /* contenido */
 .contenido
